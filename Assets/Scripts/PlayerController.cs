@@ -5,6 +5,7 @@ public class PlayerController : MonoBehaviour
     public float speed;
     public float jumpForce;
     public CheckGround checkGround;
+    public bool isRunning;
 
     private SpriteRenderer _spriteRenderer;
     private Rigidbody2D _rigidBody;
@@ -21,7 +22,6 @@ public class PlayerController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
     }
 
     void FixedUpdate()
@@ -34,7 +34,7 @@ public class PlayerController : MonoBehaviour
         /* Genere el código para que el jugador se mueva...
         añada las animaciones pertinentes
         */
-        
+
     }    
     
     private void checkJump()
